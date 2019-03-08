@@ -1,0 +1,17 @@
+/**
+ * Color
+ */
+// Essential color
+$light-grey: #f4f3f1;
+
+// Named color
+$kpmg-blue: #00338D;
+$kpmg-blue--light: #0091da;
+$kpmg-blue--medium: #185FAF;
+
+/**
+ * Easing
+ */
+$easeOutQuint : cubic-bezier(0.23, 1, 0.32, 1);
+$easeOutSine : cubic-bezier(0.39, 0.575, 0.565, 1);
+$easeInSine   : cubic-bezier(0.470, 0.000, 0.745, 0.715);

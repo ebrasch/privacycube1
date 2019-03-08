@@ -1,0 +1,7 @@
+@import "~@styles/common/variable"
+
+.cf-text-box {
+	&:focus {
+		color: $kpmg-blue;
+	}
+}
