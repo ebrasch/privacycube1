@@ -1,0 +1,44 @@
+{
+  "name": "benchmark2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=production && webpack --watch",
+    "cleanup": "rimraf ./dist/*"
+  },
+  "author": "Ray Tsai",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-include-assets-plugin": "^1.0.4",
+    "html-webpack-plugin": "^2.28.0",
+    "husky": "^0.13.4",
+    "image-webpack-loader": "^3.3.1",
+    "node-sass": "^4.5.3",
+    "node-static": "^0.7.9",
+    "postcss-loader": "^2.0.5",
+    "pug": "^2.0.0-rc.2",
+    "pug-loader": "^2.4.0",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.5",
+    "script-ext-html-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.18.1",
+    "svg-inline-loader": "^0.8.0",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "include-media": "^1.4.9",
+    "promise-polyfill": "8.1.0",
+    "viewport-units-buggyfill": "^0.6.2"
+  }
+}
