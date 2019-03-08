@@ -1,7 +1,9 @@
 @import "~@styles/common/variables";
 
 .cf-text-box {
+	transition: border-color 100ms ease-out;
+	
 	&:focus {
-		color: $kpmg-blue;
+		border-color: $kpmg-blue;
 	}
 }
