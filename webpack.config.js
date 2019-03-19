@@ -12,7 +12,10 @@ module.exports = {
       './src/workflowexample/workflowexample.scss',
     ],
     boardcontrol1: [
-      './src/boardcontrol1/boardcontrol1.scss',
+      './src/boardcontrol1/boardcontrol1.scss'
+    ],
+    reportalglobal: [
+      './src/reportalglobal/reportalglobal.scss'
     ]
   },
   output: {
