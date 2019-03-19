@@ -101,10 +101,12 @@ module.exports = {
       }]
     }, {
       test: /\.(ttf|eot|woff|woff2)$/,
-      exclude: [/assets/],
       use: {
         loader: "file-loader",
         options: {
+          context: 'assets/',
+          name: '[name].[ext]',
+          outputPath: 'assets/',
           name: "fonts/[name].[ext]"
         }
       }
