@@ -1,2 +1,2 @@
-div.main-header h1{width:100%;height:2em;text-indent:-99999999px;background:url(assets/kpmg-logo--white.png) no-repeat 0/auto 50%}
+div.main-header{padding-top:1.2em;padding-bottom:1.2em}div.main-header h1{width:100%;height:1.5em;text-indent:-99999999px;background:url(assets/kpmg-logo--white.png) no-repeat 0/auto 100%}span.color-page-title{font-family:KPMG;color:#0091da}
 /*# sourceMappingURL=reportalglobal.bundle.css.map*/

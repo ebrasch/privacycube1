@@ -15,3 +15,10 @@ $kpmg-blue--medium: #185FAF;
 $easeOutQuint : cubic-bezier(0.23, 1, 0.32, 1);
 $easeOutSine : cubic-bezier(0.39, 0.575, 0.565, 1);
 $easeInSine   : cubic-bezier(0.470, 0.000, 0.745, 0.715);
+
+/**
+ * Fonts
+ */
+$arial-font-stack: Arial, Helvetica Neue, Helvetica, sans-serif;
+$segoe-ui-font-stack: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+$kpmg-font-stack: "KPMG", Arial Narrow, Arial, sans-serif;
