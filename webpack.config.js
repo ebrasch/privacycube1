@@ -10,6 +10,9 @@ module.exports = {
   entry: {
     workflowexample: [
       './src/workflowexample/workflowexample.scss',
+    ],
+    boardcontrol1: [
+      './src/boardcontrol1/boardcontrol1.scss',
     ]
   },
   output: {
