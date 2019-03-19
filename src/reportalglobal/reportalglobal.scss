@@ -1,3 +1,7 @@
-.main-header {
-	background: red;
+div.main-header {
+	background: url('~@assets/kpmg-logo--white-bg.png') no-repeat 1em center/auto 50%;
+
+	h1 {
+		text-indent: -99999999px;
+	}
 }
