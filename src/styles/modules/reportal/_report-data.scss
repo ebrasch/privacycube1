@@ -3,6 +3,7 @@
 .report-data {
 	border: solid 1px #333;
 	border-left: solid 8px $kpmg-blue--medium;
+	margin-bottom: 2em;
 
 	&__title {
 		font-size: 1rem;
@@ -10,6 +11,7 @@
 		color: black;
 		line-height: 1;
 		background: #eee;
+		margin-top: 0;
 
     &::before {
 			content: "";
@@ -21,9 +23,9 @@
 			margin-right: 1em;
     }
 	}
-
-	&__datalist {
+	&__dataList {
 		li {
+			display: block;
 			margin-bottom: .65em;
 		}
 	}
