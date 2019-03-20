@@ -1,21 +1,11 @@
 @import "~@/styles/common/variables";
 
 .board-control-1 {
-	.board-data__title {
-		font-size: 1rem;
+	.module-title {
+		font-family: $kpmg-font-stack;
+		color: $kpmg-blue--light;
+		font-size: 2.5rem;
 		font-weight: 700;
-		color: black;
-		line-height: 1;
-		background: #eee;
-
-    &::before {
-			content: "";
-			display: inline-block;
-			vertical-align: middle;
-			width: 2em;
-			height: 2.5em;
-			background: $kpmg-blue--medium;
-			margin-right: 1em;
-    }
+		margin-bottom: 1.3em;
 	}
 }

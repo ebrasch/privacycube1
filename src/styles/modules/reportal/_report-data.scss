@@ -1,8 +1,8 @@
 @import "~@/styles/common/variables";
 
 .report-data {
-	border: solid 1px #333;
-	border-left: solid 8px $kpmg-blue--medium;
+	border: solid .05em #333;
+	border-left: solid 5px $kpmg-blue--medium;
 	margin-bottom: 2em;
 
 	&__title {
@@ -15,17 +15,16 @@
 
     &::before {
 			content: "";
-			display: inline-block;
-			vertical-align: middle;
-			width: 2em;
-			height: 2.5em;
+	    width: 2em;
 			background: $kpmg-blue--medium;
-			margin-right: 1em;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
     }
 	}
 	&__dataList {
 		li {
-			display: block;
 			margin-bottom: .65em;
 		}
 	}
