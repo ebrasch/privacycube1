@@ -1,0 +1,30 @@
+@import "~@/styles/common/variables";
+
+.report-data {
+	border: solid 1px #333;
+	border-left: solid 8px $kpmg-blue--medium;
+
+	&__title {
+		font-size: 1rem;
+		font-weight: 700;
+		color: black;
+		line-height: 1;
+		background: #eee;
+
+    &::before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			width: 2em;
+			height: 2.5em;
+			background: $kpmg-blue--medium;
+			margin-right: 1em;
+    }
+	}
+
+	&__datalist {
+		li {
+			margin-bottom: .65em;
+		}
+	}
+}
