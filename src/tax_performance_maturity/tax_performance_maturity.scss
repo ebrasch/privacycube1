@@ -29,6 +29,12 @@
 		td {
 			padding: .7em .65em;
     	line-height: 1.45;
+    	background: white;
+    	transition: background .15s ease-out;
+		}
+
+		.TableRow td {
+			background: #eee;
 		}
 
 		// Specific
