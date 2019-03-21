@@ -1,0 +1,40 @@
+@import "~@/styles/common/variables";
+@import "~@/styles/common/typography";
+
+
+.taxPerformanceMaturity {
+
+
+	// Table chart
+	.table-chart__title {
+		font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: .7em;
+    border-bottom: solid 2px $kpmg-blue--medium;
+    padding-bottom: .3em;
+    color: $kpmg-blue--medium;
+
+    &--stress {
+    	color: $kpmg-blue--light;
+    }
+	}
+
+	#confirmit_agg_table {
+		// Hide the thead
+		.t0_tr {
+			display: none;
+		}
+
+		// General
+		td {
+			padding: .7em .65em;
+    	line-height: 1.45;
+		}
+
+		// Specific
+		.t0_dc {
+			color: coral;
+			font-weight: 700;
+		}
+	}
+}

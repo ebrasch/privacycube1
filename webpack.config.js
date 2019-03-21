@@ -16,6 +16,9 @@ module.exports = {
     ],
     reportalglobal: [
       './src/reportalglobal/reportalglobal.scss'
+    ],
+    taxPerformanceMaturity: [
+      './src/taxPerformanceMaturity/taxPerformanceMaturity.scss'
     ]
   },
   output: {
