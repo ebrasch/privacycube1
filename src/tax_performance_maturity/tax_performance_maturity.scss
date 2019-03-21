@@ -33,7 +33,7 @@
     	transition: background .15s ease-out;
 		}
 
-		.TableRow td {
+		.TableRow:hover td {
 			background: #eee;
 		}
 
