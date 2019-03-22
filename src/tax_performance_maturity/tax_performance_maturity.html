@@ -2,7 +2,15 @@
 <tbody><tr>
 <td style="width:50%;"><confirmit:wysiwygcomponent type="ChartDataDef" id="e697d0c5-d437-4f6b-8da1-ccb26176f35f" /></td><td style="width:50%;"><h5 class="table-chart__title">Results: <span class="table-chart__title--stress">A Common Purpose</span></h5><confirmit:wysiwygcomponent type="AggregatedTable" id="b36ad72d-e69a-408b-b150-937cfb4a40bb" /></td></tr></tbody></table><div><br></div></div>
 <script>
-    Y.Global.on('cf:chartBeforeCreate', function(eventData) {
-    	console.log(eventData);
-  });
+Y.Global.on('cf:chartBeforeCreate', function(eventData) {
+  console.log(eventData);
+  if( eventData.dataLoaded === true ) {
+  	eventData.chartOptions.yAxis[0].gridLineInterpolation = 'polygon';
+  	eventData.chartOptions.yAxis[1].gridLineInterpolation = 'polygon';
+
+  	delete eventData.chartOptions.yAxis2;
+
+  	eventData.chartOptions.xAxis.lineWidth = 0;
+  }
+});
 </script>
