@@ -1,6 +1,9 @@
 @import "~@/styles/common/variables";
 
+
 .board-control-1 {
+	width: 80%;
+	
 	.module-title {
 		font-family: $kpmg-font-stack;
 		color: $kpmg-blue--light;
@@ -12,5 +15,11 @@
 
 	.circular-chart {
 		width: 150px;
+	}
+
+	.percentage-chart {
+    position: absolute;
+    top: 0;
+    right: 0;
 	}
 }
