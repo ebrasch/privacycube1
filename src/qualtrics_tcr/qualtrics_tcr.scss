@@ -7,6 +7,50 @@ body {
 	line-height: 1.45;
 }
 
-.QuestionText {
-	line-height: 1.45;
+.question__title {
+	position: relative;
+	line-height: 1.2;
+	
+	&__text {
+		color: white;
+		background: $kpmg-blue;
+		font-size: 1rem;
+		line-height: 1.2;
+		font-family: Arial;
+	}
+
+	&__info-trigger {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 2rem;
+		height: 100%;
+		background: $kpmg-blue--light;
+		// Question mark
+		&::before {
+			content: "?";
+			display: block;
+			position: absolute;
+			top: 50%;
+			right: 50%;
+			background: white;
+			border-radius: 50%;
+			padding: .5rem;
+			color: $kpmg-blue--light;
+			transform: translate(-50%, -50%);
+		}
+
+		&:hover + .question__title__info-text {
+			display: block;
+		}
+	}
+	&__info-text {
+		display: none;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translateY(110%);
+	}
 }
