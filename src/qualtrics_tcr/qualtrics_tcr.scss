@@ -8,42 +8,55 @@ body {
 }
 
 .question__title {
+	display: block;
 	position: relative;
-	line-height: 1.2;
+	font-family: Arial;
+	background: $kpmg-blue;
+	padding: .25em 0 .3em .4em;
+
 	
 	&__text {
 		color: white;
-		background: $kpmg-blue;
 		font-size: 1rem;
 		line-height: 1.2;
-		font-family: Arial;
+		width: calc(100% - 4rem);
 	}
 
 	&__info-trigger {
 		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		width: 2rem;
-		height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 3rem;
 		background: $kpmg-blue--light;
+		cursor: pointer;
+		transition: background .15s ease-out;
+
 		// Question mark
 		&::before {
 			content: "?";
-			display: block;
-			position: absolute;
-			top: 50%;
-			right: 50%;
-			background: white;
-			border-radius: 50%;
-			padding: .5rem;
+	    font-size: 1rem;
+	    display: block;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    background: #fff;
+	    border-radius: 50%;
+	    padding: .2em .5em;
 			color: $kpmg-blue--light;
 			transform: translate(-50%, -50%);
 		}
 
-		&:hover + .question__title__info-text {
-			display: block;
+		&:hover {
+			background: $kpmg-blue--medium;
+			&::before {
+				color: $kpmg-blue--medium;
+			}
+
+			+ .question__title__info-text {
+				display: block;
+			}
 		}
 	}
 	&__info-text {
@@ -52,5 +65,16 @@ body {
 		bottom: 0;
 		right: 0;
 		transform: translateY(110%);
+		background: white;
+    font-size: .9rem;
+    max-width: 450px;
+    min-width: 200px;
+    z-index: 10;
+    padding: .5rem 1rem .6rem 1rem;
+    box-shadow: 0 0 10px #eee;
+    border: solid 1px #aaa;
+    line-height: 1.45;
+    font-weight: normal;
+    font-family: arial;
 	}
 }
