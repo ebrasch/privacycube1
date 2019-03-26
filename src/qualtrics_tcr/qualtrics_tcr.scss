@@ -16,10 +16,11 @@ body {
 
 	
 	&__text {
-		color: white;
-		font-size: 1rem;
-		line-height: 1.2;
-		width: calc(100% - 4rem);
+		color: #fff;
+    font-size: 1rem;
+    line-height: 1.45;
+    width: calc(100% - 4rem);
+    display: block;
 	}
 
 	&__info-trigger {
@@ -43,17 +44,13 @@ body {
 	    left: 50%;
 	    background: #fff;
 	    border-radius: 50%;
-	    padding: .2em .5em;
+	    padding: .3em .4em;
+    	line-height: 1;
 			color: $kpmg-blue--light;
 			transform: translate(-50%, -50%);
 		}
 
 		&:hover {
-			background: $kpmg-blue--medium;
-			&::before {
-				color: $kpmg-blue--medium;
-			}
-
 			+ .question__title__info-text {
 				display: block;
 			}
