@@ -75,3 +75,30 @@ body {
     font-family: arial;
 	}
 }
+
+
+.QuestionOuter {
+    border-bottom: dotted 1px #bbb;
+    padding-bottom: 0!important;
+}
+
+
+.ChoiceStructure {
+	.Selection {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.LabelWrapper {
+		label {
+			background: transparent!important;
+    	padding: 0!important;
+		}
+	}
+
+	.MultipleAnswer span::before {
+		border-radius: 50%!important;
+    background: #ddd!important;
+    border-color: #ddd!important;
+	}
+}
