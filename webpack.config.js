@@ -8,7 +8,8 @@ const path = require('path')
 module.exports = {
   devtool: 'cheap-module-source-map',
   entry: {
-    workflowexample: [
+    // ConfirmIT
+    /*workflowexample: [
       './src/workflowexample/workflowexample.scss',
     ],
     boardcontrol1: [
@@ -19,6 +20,10 @@ module.exports = {
     ],
     tax_performance_maturity: [
       './src/tax_performance_maturity/tax_performance_maturity.scss'
+    ]*/
+    // qualtrics
+    qualtrics_tcr: [
+      './src/qualtrics_tcr/qualtrics_tcr.scss'
     ]
   },
   output: {
