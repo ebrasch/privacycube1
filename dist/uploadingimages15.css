@@ -1,0 +1,3 @@
+@font-face{font-family:KPMG;src:url(assets/fonts/KPMG-Web-Thin.woff2) format("woff2"),url(assets/fonts/KPMG-Web-Thin.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:KPMG;src:url(assets/fonts/KPMG-Web-Light.woff2) format("woff2"),url(assets/fonts/KPMG-Web-Light.woff) format("woff");font-weight:300;font-style:normal}.cf-page__header{background:url(assets/KPMG_BLUE.png) left center no-repeat, url(assets/CUBE2.png) right center no-repeat;height:5em;max-width:1272px;margin:auto}.cf-page__header:after {content: 'Privacy cube';color: black;font-family:KPMG,Arial Narrow,Arial,sans-serif;color:#00338D;font-size:4rem!important;font-weight:700;line-height: 80px;padding-left: 140px;}
+
+/*# sourceMappingURL=workflowexample.bundle.css.map*/
